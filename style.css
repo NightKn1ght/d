@@ -1,0 +1,464 @@
+
+body{
+    background-image: url("img/intro-bg.jpg");
+    margin: 0;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+#header-container{
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.header_list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.header-nav{
+    align-self: center;
+}
+li{
+    margin: 0 10px;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#container_header_logo_img{
+    align-self: center;
+}
+#masthead{
+    display: flex;
+    height: 650px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+button[id="find-out-more"]{
+    width: 250px;
+    height: 70px;
+    background: #e84545;
+    color: white;
+    border-radius: 5px;
+    font-family: Myriad Pro;
+    font-size: 17px;
+    border: none;
+    margin-top: 80px;
+}
+#heading{
+    font-size: 65px;
+    margin-bottom: -10px;
+}
+#heading-text{
+    font-size: 25px;
+    text-align: center;
+}
+#features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 700px;
+}
+#features-container-elements{
+    display: flex;
+    height: 80%;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.features-element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+.features-element-text{
+    width: 80%;
+    font-size: 18px;
+}
+.works-elements-img{
+    height: 49.9%;
+    width: 24.9%;
+}
+#works{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    background: white;
+    height: 601px;
+}
+#team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 720px;
+}
+.profession{
+    margin-top: -10px;
+    color: red;
+    font-size: 15px;
+    font-family: "Segoe UI Light";
+}
+.team-name{
+    font-family: "Segoe UI";
+}
+.team-element-img{
+    width: 90%;
+}
+.team-element{
+    width: 250px;
+}
+#team-container-elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.team-element-text{
+    width: 90%;
+    margin: 0;
+}
+#clients{
+    display: flex;
+    flex-direction: row;
+}
+#review{
+    background: #53354a;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-text{
+    color: white;
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+}
+.review-user{
+    font-size: 17px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-review{
+    width: 500px;
+}
+.nav-link:hover{
+    color: #e84545;
+}
+#download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background: white;
+}
+#heading-download{
+    font-size: 28px;
+    font-family: "Segoe UI Light";
+}
+#under-heading-download{
+    font-size: 16px;
+    margin-top: -10px;
+}
+#container_download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button[id="download-here-but"]{
+    width: 250px;
+    height: 50px;
+    background: #e84545;
+    color: white;
+    font-family: Myriad Pro;
+    font-size: 17px;
+    border: none;
+    margin-top: 10px;
+}
+footer{
+    height: 250px;
+    background: #3a3e64;
+}
+.footer-headings{
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    color: white;
+}
+.text-footer{
+    color: gray;
+    margin: 0 -10px ;
+}
+.information-about{
+    text-align: center;
+    width: 250px;
+}
+#information-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-button-footer{
+    width: 35px;
+    height: 35px;
+    border: 2px solid white;
+}
+#container-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#right-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #313454;
+    height: 100px;
+}
+#right-footer-text{
+    color: #808080;
+    margin: 0;
+    text-align: center;
+}
+#client{
+    width: 50%;
+    height: 500px;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+}
+.controls input{
+    width: 10px;
+    height: 10px;
+}
+.controls input:after{
+    background-color: #755d6e;
+    content: '';
+    border-radius: 15px;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.controls input:checked:after{
+    background-color: white;
+    content: '';
+    border-radius: 15px;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+
+@media screen and (max-device-width: 1400px) {
+    #works{
+        height: 401px;
+    }
+    .review-text{
+        font-size: 22px;
+    }
+}
+@media screen and (max-device-width: 1100px) {
+    .review-text{
+        font-size: 18px;
+    }
+    .container-review{
+        width: 300px;
+    }
+    .review-user{
+        font-size: 15px;
+    }
+    .team-element{
+        width: 200px
+    }
+    #heading{
+        font-size: 40px;
+        margin-bottom: -10px;
+    }
+}
+@media screen and (max-device-width: 900px) {
+    #features{
+        height: 3000px;
+        display: flex;
+    }
+    #features-container-elements{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .features-element{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 600px;
+        margin: 50px;
+    }
+    .features-element h3{
+        font-size: 35px;
+        margin: 20px;
+    }
+    .features-element-text{
+        width: 80%;
+        font-size: 30px;
+        margin: 0;
+    }
+    .features-element img{
+        width: 100px;
+    }
+    .works-elements-img{
+        width: 100%;
+    }
+    #works{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    #team{
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        align-content: stretch;
+        height: auto;
+    }
+    #team-container-elements{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 50px;
+    }
+    .team-element{
+        width: 600px;
+        margin: 50px;
+    }
+    .team-name{
+        font-size: 40px;
+    }
+    .profession{
+        font-size: 38px;
+    }
+    .team-element-img{
+        width: 70%;
+    }
+    .team-element-text{
+        width: 70%;
+        font-size: 35px;
+    }
+    #clients{
+        display: flex;
+        flex-direction: column;
+    }
+    #client{
+        width: 100%;
+    }
+    #review{
+        height: 500px;
+        width: 100%;
+    }
+    .container-review{
+        width: 600px;
+    }
+    .review-text{
+        font-size: 40px;
+    }
+    .review-user{
+        font-size: 25px;
+    }
+    #heading-download{
+        font-size: 40px;
+    }
+    #under-heading-download{
+        font-size: 25px;
+    }
+    button[id="download-here-but"]{
+        width: 270px;
+        height: 70px;
+        background: #e84545;
+        color: white;
+        font-family: Myriad Pro;
+        font-size: 26px;
+        border: none;
+        margin-top: 10px;
+    }
+    .footer-headings{
+        font-size: 26px;
+    }
+    .information-about{
+        width: 200px;
+    }
+    .text-footer{
+        font-size: 20px;
+    }
+    #right-footer-text{
+        font-size: 20px;
+    }
+}
+@media screen and (max-device-width: 500px) {
+    .nav-link{
+        font-size: 20px;
+    }
+    #heading-text{
+        font-size: 35px;
+    }
+    #features{
+        height: 4000px;
+        display: flex;
+    }
+    .features-element{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 650px;
+        margin: 50px;
+    }
+    .features-element h3{
+        font-size: 45px;
+        margin: 20px;
+    }
+    .features-element-text{
+        width: 80%;
+        font-size: 45px;
+        margin: 0;
+    }
+    #heading-download{
+        font-size: 45px;
+    }
+    #under-heading-download{
+        font-size: 30px;
+    }
+    footer{
+        height: 500px;
+    }
+    .text-footer{
+        font-size: 30px;
+    }
+    #right-footer-text{
+        font-size: 20px;
+    }
+    .social-network{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-button-footer{
+        width: 50px;
+        height: 50px;
+    }
+}
